@@ -125,6 +125,7 @@ main (int argc, char *argv[])
           { NULL, 0, NULL, 0 } };
 #endif
 
+  GC_INIT();
   if (argc < 2)
     return usage ();
 
